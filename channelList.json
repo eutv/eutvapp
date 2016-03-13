@@ -1,0 +1,368 @@
+﻿[{
+	"locale": "hu",
+	"title": {
+		"hu": "Magyar",
+		"en": "Hungarian"
+	},
+	"stations": [{
+		"id": "Konyha Tv",
+		"tvGuide": {},
+		"stream": [{
+			"url": "rtmp://91.82.85.44:1935/live/konyhatv"
+		}],
+		"title": "Konyha Tv",
+		"order": 10
+	}, {
+		"id": "Budapest TV",
+		"tvGuide": {
+			"czoId": "budapesteuropatv.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "http://91.82.85.44:1935/relay20/bptv.sdp/playlist.m3u8"
+		}],
+		"title": "Budapest TV",
+		"order": 9
+	}, {
+		"id": "M3",
+		"tvGuide": {
+			"czoId": "m3.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "http://212.40.98.162/intstreams/mtva/mtv3live_international.smil/playlist.m3u8"
+		}],
+		"title": "M3",
+		"order": 3
+	}, {
+		"id": "fixHD",
+		"tvGuide": {
+			"czoId": "fixhd.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "rtmp://video.fixhd.tv:1935/fix/sd.stream"
+		}],
+		"title": "fixHD",
+		"order": 11
+	}, {
+		"id": "Alföld Televízió ",
+		"tvGuide": {},
+		"stream": [{
+			"url": "rtmp://217.113.62.243/live/live"
+		}],
+		"title": "Alföld Televízió ",
+		"order": 12
+	}, {
+		"id": "Debrecen Városi Televízió ",
+		"tvGuide": {
+			"czoId": "debrecentv.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "http://91.82.85.41:1935/relay2/DTV/playlist.m3u8"
+		}],
+		"title": "Debrecen Városi Televízió ",
+		"order": 13
+	}, {
+		"id": "Győr+",
+		"tvGuide": {
+			"czoId": "gyorplustv.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "rtmp://91.82.85.44:1935/liverelay/gyorplusz.sdp "
+		}],
+		"title": "Győr+",
+		"order": 14
+	}, {
+		"id": "Fehérvár Televízió",
+		"tvGuide": {},
+		"stream": [{
+			"url": "rtmp://91.82.85.71:1935/liverelay/fehervartv.sdp"
+		}],
+		"title": "Fehérvár Televízió",
+		"order": 15
+	}, {
+		"id": "Nyíregyházi Televízió",
+		"tvGuide": {
+			"czoId": "nyiregyhazitv.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "rtmp://193.138.125.14:1935/live/nytv.stream"
+		}],
+		"title": "Nyíregyházi Televízió",
+		"order": 16
+	}, {
+		"id": "Debrecen Televízió ",
+		"tvGuide": {},
+		"stream": [{
+			"url": "rtmp://91.82.85.71:1935/live/_definst_/DTV"
+		}],
+		"title": "Debrecen Televízió ",
+		"order": 17
+	}, {
+		"id": "Duna World",
+		"tvGuide": {
+			"czoId": "dunaworld.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "http://212.40.98.162/intstreams/mtva/dunaworldlive_international.smil/playlist.m3u8"
+		}],
+		"title": "Duna World",
+		"order": 5
+	}, {
+		"id": "Duna Tv",
+		"tvGuide": {
+			"czoId": "dunatv.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "http://212.40.98.162/intstreams/mtva/dunalive_international.smil/playlist.m3u8"
+		}],
+		"title": "Duna Tv",
+		"order": 4
+	}, {
+		"id": "HirTV",
+		"tvGuide": {
+			"czoId": "hirtv.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "http://streamserver.mno.netrix.hu:8080/hls_live/live_ep_512k.m3u8"
+		}],
+		"title": "HirTV",
+		"order": 7
+	}, {
+		"id": "Euronews",
+		"tvGuide": {
+			"czoId": "euronews.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "rtsp://ewns-hls-b-stream.hexaglobe.net/rtpeuronewslive/hu_vidan350_rtp.sdp?3a3fdd31ce59c91891ec6cce06dee77f&54566d81"
+		}],
+		"title": "Euronews",
+		"order": 8
+	}, {
+		"id": "Halom TV",
+		"tvGuide": {},
+		"stream": [{
+			"url": "rtmp://stream.battanet.hu/halom/tv"
+		}],
+		"title": "Halom TV",
+		"order": 18
+	}, {
+		"id": "M1",
+		"tvGuide": {
+			"czoId": "m1.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "http://212.40.98.162/intstreams/mtva/mtv1live_international.smil/playlist.m3u8"
+		}],
+		"title": "M1",
+		"order": 1
+	}, {
+		"id": "M2",
+		"tvGuide": {
+			"czoId": "m2petofitv.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "http://212.40.98.162/intstreams/mtva/mtv2live_international.smil/playlist.m3u8"
+		}],
+		"title": "M2",
+		"order": 2
+	}, {
+		"id": "ATV",
+		"tvGuide": {
+			"czoId": "atv.hu.xmltv.czo.hu"
+		},
+		"stream": [{
+			"url": "rtmp://195.228.75.97/atvliveedge/_definst_/atvstream_2_aac"
+		}],
+		"title": "ATV",
+		"order": 6
+	}]
+}, {
+	"locale": "sk",
+	"title": {
+		"hu": "Szlovák",
+		"en": "Slovencina"
+	},
+	"stations": [{
+		"id": "STV1",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://e25.stv.livebox.sk/stv-tv/_definst_/stv1-2.smil/playlist.m3u8?auth=b64:X2FueV98MTQ1NzcyMDYxN3wzMTMzMjU2ZWQ3NjFiMDQ2MzQ2MmM2M2QyODU3NjY0OGJiNmQ5Nzk0"
+		}],
+		"title": "STV1",
+		"order": 10
+	}, {
+		"id": "STV2",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://e16.stv.livebox.sk/stv-tv/_definst_/stv2-2.smil/playlist.m3u8?auth=b64:X2FueV98MTQ1NzcyMDcwMXwzOTIzMDMxNmQ0NzYzYzVhYzRmYjBmMDgxYTcwYmRkNmNiZmQzZjdl"
+		}],
+		"title": "STV2",
+		"order": 10
+	}]
+}, {
+	"locale": "ch",
+	"title": {
+		"hu": "Cseh",
+		"en": "Čeština"
+	},
+	"stations": [{
+		"id": "CT1",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8001"
+		}],
+		"title": "CT1",
+		"order": 1
+	}, {
+		"id": "CT2",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8002"
+		}],
+		"title": "CT2",
+		"order": 2
+	}, {
+		"id": "Nova",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8003"
+		}],
+		"title": "Nova",
+		"order": 3
+	}, {
+		"id": "Prima",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8004"
+		}],
+		"title": "Prima",
+		"order": 4
+	}, {
+		"id": "Prima Zoom",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8011"
+		}],
+		"title": "Prima Zoom",
+		"order": 5
+	}, {
+		"id": "Ocko Gold",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8012"
+		}],
+		"title": "Ocko Gold",
+		"order": 5
+	}, {
+		"id": "Slagr TV",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8013"
+		}],
+		"title": "Slagr TV",
+		"order": 5
+	}, {
+		"id": "CT Sport",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8014"
+		}],
+		"title": "Slagr TV",
+		"order": 5
+	}, {
+		"id": "CT24",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8015"
+		}],
+		"title": "CT24",
+		"order": 5
+	}, {
+		"id": "Ocko Hits",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8016"
+		}],
+		"title": "Ocko Hits",
+		"order": 5
+	}, {
+		"id": "Ocko Hits",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8016"
+		}],
+		"title": "Ocko Hits",
+		"order": 5
+	}, {
+		"id": "Noe",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8017"
+		}],
+		"title": "Noe",
+		"order": 5
+	}, {
+		"id": "Retro",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8018"
+		}],
+		"title": "Retro",
+		"order": 5
+	}, {
+		"id": "Prima Love",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8019"
+		}],
+		"title": "Prima Love",
+		"order": 5
+	}, {
+		"id": "Nova Cinema",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8020"
+		}],
+		"title": "Nova Cinema",
+		"order": 5
+	}, {
+		"id": "Prima Cool",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8021"
+		}],
+		"title": "Prima Cool",
+		"order": 5
+	}, {
+		"id": "TV Barrandov",
+		"tvGuide": {},
+		"stream": [{
+			"url": "http://81.201.52.159:8022"
+		}],
+		"title": "TV Barrandov",
+		"order": 5
+	}, {
+		"id": "TRT KURDI",
+		"tvGuide": {},
+		"stream": [{
+			"url": "rtmp://si.trtcdn.com/tv/trt6/mp4:trt6_3"
+		}],
+		"title": "TRT KURDI",
+		"order": 5
+	}, {
+		"id": "TV 10KURDI",
+		"tvGuide": {},
+		"stream": [{
+			"url": "rtmp://5.135.142.60/tv10//xetero"
+		}],
+		"title": "TV 10KURDI",
+		"order": 5
+	}, {
+		"id": "MUZIK KURDI",
+		"tvGuide": {},
+		"stream": [{
+			"url": "rtmp://178.33.61.33:1936/medmuzik//muzikakurdi"
+		}],
+		"title": "MUZIK KURDI",
+		"order": 5
+	}]
+}]
