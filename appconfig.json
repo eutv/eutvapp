@@ -1,6 +1,6 @@
 {
-	"versionCode": 1,
-	"url": "https://github.com/eutv/eutvapp",
+	"versionCode": 2,
+	"websiteUrl": "https://github.com/eutv/eutvapp",
 	"channelListBaseUrl": "https://github.com/eutv/eutvapp/blob/master/",
 	"channelListFileName": "channelList.json"
 }
